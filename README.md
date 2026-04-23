@@ -1,16 +1,13 @@
-## Hi there 👋
+## Hi, I'm Liam
 
-<!--
-**liam-m9/liam-m9** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Second-year Computer Science student at the University of Nottingham.
 
-Here are some ideas to get you started:
+I build backend systems and full-stack apps. Lately: a Next.js/Supabase app 
+with AI integration, a rate limiter in Go, and a data analysis tool for a 
+game I play. Currently looking for summer 2026 SWE internships in Dubai.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Stack
+TypeScript • Python • Go • PostgreSQL • AWS Lambda • Next.js • Supabase
+
+### Reach me
+liam.makoni9@gmail.com • [LinkedIn](https://linkedin.com/in/liam-makoni)
