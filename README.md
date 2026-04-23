@@ -2,7 +2,7 @@
 
 Second-year Computer Science student at the University of Nottingham.
 
-I build backend systems and full-stack apps. Lately: a Next.js/Supabase app 
+I enjoy building backend systems and full-stack apps. Lately: a Next.js/Supabase app 
 with AI integration, a rate limiter in Go, and a data analysis tool for a 
 game I play. Currently looking for summer 2026 SWE internships in Dubai.
 
