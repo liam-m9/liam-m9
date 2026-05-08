@@ -1,21 +1,17 @@
 ## Hi, I'm Liam
 
-Second-year Computer Science student at the University of Nottingham.
+Second-year Computer Science student at the University of Nottingham. I build backend systems and full-stack apps — recently a Next.js/Supabase legal tool with LLM-generated solicitor briefs, a sliding-window rate limiter in Go, and a serverless Python/Flask API on AWS Lambda for a paying client.
 
-I enjoy building backend systems and full-stack apps. Lately: a Next.js/Supabase app 
-with AI integration, a rate limiter in Go, and a data analysis tool for a 
-game I play. Currently looking for summer 2026 SWE internships in Dubai.
+**UAE resident, available June–September 2026 for SWE internships in Dubai.**
 
 ### Stack
-TypeScript • Python • Go • PostgreSQL • AWS Lambda • Next.js • Supabase
+TypeScript · Python · Go · PostgreSQL · AWS Lambda · Next.js · Flask · Supabase · Tailwind
 
-### Reach me
-liam.makoni9@gmail.com • [LinkedIn](https://linkedin.com/in/liam-makoni)
+### Featured projects
+- **[companion](https://github.com/liam-m9/companion)** — Full-stack legal documentation tool with AI-generated solicitor briefs (Next.js, Supabase, Groq Llama 3.3)
+- **[draft-analyzer](https://github.com/liam-m9/draft-analyzer)** — Draft analysis tool for Valve's Deadlock with a weighted scoring algorithm (React, TypeScript, Vite)
+- **[tutoring-business](https://github.com/liam-m9/tutoring-business)** — Marketing site + serverless Python/Flask API on AWS Lambda for an independent client (Postgres, AWS SAM, Cloudflare Turnstile)
+- **[rate-limiter](https://github.com/liam-m9/rate-limiter)** — Sliding-window HTTP rate limiter middleware in Go, race-detector clean
 
-companion — Full-stack legal documentation tool with AI-generated solicitor briefs (Next.js, Supabase, Groq Llama 3.3)
-
-draft-analyzer — Draft analysis tool for Valve's Deadlock with weighted scoring algorithm (React, TypeScript, Vite)
-
-tutoring-business — Marketing site + serverless Python/Flask API on AWS Lambda for an independent client (Postgres, AWS SAM, Cloudflare Turnstile)
-
-rate-limiter — Sliding-window HTTP rate limiter middleware in Go with race-detector-clean concurrency
+### Contact
+liam.makoni9@gmail.com · [LinkedIn](https://linkedin.com/in/liam-makoni)
