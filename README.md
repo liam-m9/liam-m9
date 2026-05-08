@@ -11,3 +11,11 @@ TypeScript • Python • Go • PostgreSQL • AWS Lambda • Next.js • Supab
 
 ### Reach me
 liam.makoni9@gmail.com • [LinkedIn](https://linkedin.com/in/liam-makoni)
+
+companion — Full-stack legal documentation tool with AI-generated solicitor briefs (Next.js, Supabase, Groq Llama 3.3)
+
+draft-analyzer — Draft analysis tool for Valve's Deadlock with weighted scoring algorithm (React, TypeScript, Vite)
+
+tutoring-business — Marketing site + serverless Python/Flask API on AWS Lambda for an independent client (Postgres, AWS SAM, Cloudflare Turnstile)
+
+rate-limiter — Sliding-window HTTP rate limiter middleware in Go with race-detector-clean concurrency
