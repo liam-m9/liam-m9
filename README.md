@@ -7,7 +7,7 @@ Based in Dubai and available now. UAE resident with full right to work. An emplo
 ### Projects
 
 - **[job-queue-service](https://github.com/liam-m9/job-queue-service)**: Durable job queue on PostgreSQL alone, no Redis and no queue library. `SELECT ... FOR UPDATE SKIP LOCKED` lets concurrent workers claim disjoint batches without double-claiming. Around 700 jobs/sec single-worker, measured end-to-end against local Postgres.
-- **[webhook-delivery](https://github.com/liam-m9/webhook-delivery)**: HMAC-SHA256 signed webhook delivery. Retries are scheduled in a Redis sorted set keyed by next-due timestamp, so per-delivery exponential backoff survives a process restart. Ingest API, dispatcher and receiver run as three separate processes over real HTTP.
+- **[webhook-delivery-service](https://github.com/liam-m9/webhook-delivery-service)**: HMAC-SHA256 signed webhook delivery. Retries are scheduled in a Redis sorted set keyed by next-due timestamp, so per-delivery exponential backoff survives a process restart. Ingest API, dispatcher and receiver run as three separate processes over real HTTP.
 - **[rate-limiter](https://github.com/liam-m9/rate-limiter)**: Sliding-window HTTP rate limiter in Go. Per-key mutexes rather than a global lock, so different clients never block each other. Verified with 200 goroutines racing a single key under `go test -race`.
 
 ### Stack
