@@ -1,8 +1,8 @@
 ## Liam Makoni
 
-Backend engineer, final-year Computer Science at the University of Nottingham. I build services in Node.js and Go, mostly around concurrency and reliable async processing. Every repo below documents its design decisions and its known limitations, not just what it does.
+Backend engineer, Computer Science at the University of Nottingham, graduating 2027. I build services in Node.js and Go, mostly around concurrency and reliable async processing. Every repo below documents its design decisions and its known limitations, not just what it does.
 
-In Dubai until 20 September 2026, remote after that. UAE resident with full right to work. An employer files a MoHRE family-sponsorship work permit against my existing residence and Emirates ID. No new residence visa, medical or biometrics required.
+Based in Dubai and available now. UAE resident with full right to work. An employer files a MoHRE family-sponsorship work permit against my existing residence and Emirates ID. No new residence visa, medical or biometrics required.
 
 ### Projects
 
