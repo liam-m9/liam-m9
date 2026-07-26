@@ -1,17 +1,19 @@
-## Hi, I'm Liam
+## Liam Makoni
 
-Second-year Computer Science student at the University of Nottingham. I build backend systems and full-stack apps — recently a Next.js/Supabase legal tool with LLM-generated solicitor briefs, a sliding-window rate limiter in Go, and a serverless Python/Flask API on AWS Lambda for a paying client.
+Backend engineer, final-year Computer Science at the University of Nottingham. I build services in Node.js and Go, mostly around concurrency and reliable async processing. Every repo below documents its design decisions and its known limitations, not just what it does.
 
-**UAE resident, available June–September 2026 for SWE internships in Dubai.**
+In Dubai until 20 September 2026, remote after that. UAE resident with full right to work. An employer files a MoHRE family-sponsorship work permit against my existing residence and Emirates ID. No new residence visa, medical or biometrics required.
+
+### Projects
+
+- **[job-queue-service](https://github.com/liam-m9/job-queue-service)**: Durable job queue on PostgreSQL alone, no Redis and no queue library. `SELECT ... FOR UPDATE SKIP LOCKED` lets concurrent workers claim disjoint batches without double-claiming. Around 700 jobs/sec single-worker, measured end-to-end against local Postgres.
+- **[webhook-delivery](https://github.com/liam-m9/webhook-delivery)**: HMAC-SHA256 signed webhook delivery. Retries are scheduled in a Redis sorted set keyed by next-due timestamp, so per-delivery exponential backoff survives a process restart. Ingest API, dispatcher and receiver run as three separate processes over real HTTP.
+- **[rate-limiter](https://github.com/liam-m9/rate-limiter)**: Sliding-window HTTP rate limiter in Go. Per-key mutexes rather than a global lock, so different clients never block each other. Verified with 200 goroutines racing a single key under `go test -race`.
 
 ### Stack
-TypeScript · Python · Go · PostgreSQL · AWS Lambda · Next.js · Flask · Supabase · Tailwind
 
-### Featured projects
-- **[companion](https://github.com/liam-m9/companion)** — Full-stack legal documentation tool with AI-generated solicitor briefs (Next.js, Supabase, Groq Llama 3.3)
-- **[draft-analyzer](https://github.com/liam-m9/draft-analyzer)** — Draft analysis tool for Valve's Deadlock with a weighted scoring algorithm (React, TypeScript, Vite)
-- **[tutoring-business](https://github.com/liam-m9/tutoring-business)** — Marketing site + serverless Python/Flask API on AWS Lambda for an independent client (Postgres, AWS SAM, Cloudflare Turnstile)
-- **[rate-limiter](https://github.com/liam-m9/rate-limiter)** — Sliding-window HTTP rate limiter middleware in Go, race-detector clean
+Node.js · Go · PostgreSQL · Redis · Docker · Python · SQL
 
 ### Contact
+
 liam.makoni9@gmail.com · [LinkedIn](https://linkedin.com/in/liam-makoni)
