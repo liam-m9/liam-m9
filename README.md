@@ -1,19 +1,20 @@
-## Liam Makoni
+# Liam Makoni
 
-Backend engineer, Computer Science at the University of Nottingham, graduating 2027. I build services in Node.js and Go, mostly around concurrency and reliable async processing. Every repo below documents its design decisions and its known limitations, not just what it does.
+Backend engineer and Computer Science student at the University of Nottingham, graduating in 2027. I build services in TypeScript/Node.js and Go, mostly around concurrency and reliable async processing.
 
-Based in Dubai and available now. UAE resident with full right to work. An employer files a MoHRE family-sponsorship work permit against my existing residence and Emirates ID. No new residence visa, medical or biometrics required.
+Available immediately. UAE resident, eligible to work via a MoHRE family-sponsorship work permit filed by the employer against my existing residence and Emirates ID. No new residence visa, medical or biometrics required.
 
-### Projects
+## Selected work
 
-- **[job-queue-service](https://github.com/liam-m9/job-queue-service)**: Durable job queue on PostgreSQL alone, no Redis and no queue library. `SELECT ... FOR UPDATE SKIP LOCKED` lets concurrent workers claim disjoint batches without double-claiming. Around 700 jobs/sec single-worker, measured end-to-end against local Postgres.
-- **[webhook-delivery-service](https://github.com/liam-m9/webhook-delivery-service)**: HMAC-SHA256 signed webhook delivery. Retries are scheduled in a Redis sorted set keyed by next-due timestamp, so per-delivery exponential backoff survives a process restart. Ingest API, dispatcher and receiver run as three separate processes over real HTTP.
-- **[rate-limiter](https://github.com/liam-m9/rate-limiter)**: Sliding-window HTTP rate limiter in Go. Per-key mutexes rather than a global lock, so different clients never block each other. Verified with 200 goroutines racing a single key under `go test -race`.
+- **[job-queue-service](https://github.com/liam-m9/job-queue-service):** TypeScript and PostgreSQL queue using `SELECT ... FOR UPDATE SKIP LOCKED` for disjoint concurrent claims, visibility-timeout recovery and at-least-once processing. Measured at roughly 700 jobs per second with one local worker.
+- **[webhook-delivery-service](https://github.com/liam-m9/webhook-delivery-service):** TypeScript and Redis delivery service with durable exponential backoff, atomic Lua claiming, HMAC signing, replay detection and stable delivery ids for consumer deduplication.
+- **[rate-limiter](https://github.com/liam-m9/rate-limiter):** Sliding-window HTTP rate limiter in Go using per-key locks over `sync.Map`, tested with 200 goroutines and `go test -race`.
+- **[tutor-lead-capture](https://github.com/liam-m9/tutor-lead-capture):** Flask API on AWS Lambda behind API Gateway, with PostgreSQL persistence, Turnstile verification and per-IP rate limiting.
 
-### Stack
+## Stack
 
-Node.js · Go · PostgreSQL · Redis · Docker · Python · SQL
+TypeScript, Node.js, Go, PostgreSQL, Redis, Docker, Python and AWS Lambda.
 
-### Contact
+## Contact
 
-liam.makoni9@gmail.com · [LinkedIn](https://linkedin.com/in/liam-makoni)
+[LinkedIn](https://linkedin.com/in/liam-makoni) | liam.makoni9@gmail.com
