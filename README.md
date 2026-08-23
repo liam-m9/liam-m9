@@ -1,6 +1,6 @@
 # Liam Makoni
 
-Backend engineer and Computer Science student at the University of Nottingham, graduating in 2027. I build services in TypeScript/Node.js and Go, mostly around concurrency and reliable async processing.
+Software Developer at Hear and Hack and Computer Science student at the University of Nottingham, graduating in 2027. I build backend systems in TypeScript/Node.js and Go, mainly around concurrency and reliable asynchronous processing.
 
 ## Selected work
 
