@@ -2,8 +2,6 @@
 
 Backend engineer and Computer Science student at the University of Nottingham, graduating in 2027. I build services in TypeScript/Node.js and Go, mostly around concurrency and reliable async processing.
 
-Available immediately. UAE resident, eligible to work via a MoHRE family-sponsorship work permit filed by the employer against my existing residence and Emirates ID. No new residence visa, medical or biometrics required.
-
 ## Selected work
 
 - **[job-queue-service](https://github.com/liam-m9/job-queue-service):** TypeScript and PostgreSQL queue using `SELECT ... FOR UPDATE SKIP LOCKED` for disjoint concurrent claims, visibility-timeout recovery and at-least-once processing. Measured at roughly 700 jobs per second with one local worker.
