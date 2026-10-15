@@ -12,7 +12,7 @@ Computer Science student at the University of Nottingham, graduating in 2027 and
 
 ## Stack
 
-TypeScript, Node.js, Go, PostgreSQL, Redis, Rust, Python, Next.js, Supabase, Flask, AWS Lambda, Docker and GitHub Actions.
+TypeScript, Node.js, Go, PostgreSQL, Redis, Rust, Python, Next.js, Flask, AWS Lambda, Docker and GitHub Actions.
 
 ## Contact
 
